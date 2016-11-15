@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>X-LAB Group</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" id="style-css" href="style.css" />
+    <script type="text/javascript" src="main.js"/>
+  </head>
+  <body>
+    <div id="header" class="noselect">
+      <div class="Icon nav hori" onclick="goto('')">X-LAB</div>
+      <ul class="hori">
+        <li class="nav" onclick="goto('project')">Home</li>
+        <!--
+            <li class="nav" onclick="goto('experience')">Products</li>
+        <li class="nav" onclick="goto('honor')">Members</li>
+        <li class="nav" onclick="goto('resume')">Contact</li>
+        <li class="nav" onclick="goto('contact')">Join Us</li>
+        -->
+      </ul>
+      <!--div class="nav hori" id="UserArea">Login</div-->
+    </div>
+    
+    <!--div id="title" class="noselect">
+        <div class="description">
+          <h1></h1>
+          <h3></h3>
+        </div>
+</div-->
+    
+	<div id="container">
+      <section class="content__band" id="home_band_title">
+        <div class="grid grid--no-gutter content__band__container">
+          <div class="grid__col grid__col--1-of-2 content__band__rich-copy content__band__rich-copy--246">
+            <h1>READY FOR ANY JOB BIG OR SMALL</h1>
+            <p>
+              <strong>The X-1 Series</strong>
+              Our family of self-driving vehicles just got bigger... by getting smaller. Introducing <strong>the X-1 Series</strong> 
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="content__band" id="home_band_1">
+        <div class="grid grid--no-gutter content__band__container">
+          <div class="grid__col grid__col--4-of-12 grid__col--push-7-of-12 content__band__rich-copy content__band__rich-copy--246">
+            <h1>BUILT FOR INDUSTRY</h1>
+            <p>
+              <strong>The X-1 Series</strong>
+              has been designed and engineered to ensure your production line runs smoothly, 365 days per year. Industry rated components and all metal construction enable <strong>X-1</strong> to withstand the rigors of even the harshest working environments.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="content__band" id="home_band_2">
+        <div class="grid grid--no-gutter content__band__container">
+          <div class="grid__col grid__col--4-of-12  grid__col--push-1-of-12 content__band__rich-copy content__band__rich-copy--246">
+            <h1>A SENSE FOR SAFETY</h1>
+            <p>
+              <strong>The X-1 Series</strong>
+              nsures safe operation by never taking its eyes off the road and staying focused on the task at hand. <strong>X-1</strong> is designed to meet industrial standards, including ANSI B56.5, and has been 3rd party reviewed.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="content__band" id="product_specs">
+        <div class="product_specs_container">
+          <h1 class="section__title">Tech Specs</h1>
+          <div class="grid grid--no-gutter">
+            <div class="grid__col grid__col--1-of-3 grid__col--s-1-of-3 grid__col--m-1-of-3 grid__col--am text__center">
+              <div class="eva-0-img">
+                <!--img alt="" src="IMG_20161027_172430.jpg"-->
+              </div>
+            </div>
+            <div class="grid__col grid__col--1-of-3 grid__col--s-1-of-3 grid__col--m-1-of-3 grid__col--am text__center">
+              <!--div class="spec__table__switches">
+                  <ul class="grid grid--no-gutter">
+                    <li class="grid__col grid__col--1-of-2">
+                      <a href="#" class="spec__table__switch spec__table__switch--active" id="switchMetric">
+                        Metric
+                      </a>
+                    </li>
+                    <li class="grid__col grid__col--1-of-2">
+                      <a href="#" class="spec__table__switch" id="switchImperial">
+                        US / Imperial
+                      </a>
+                    </li>
+                  </ul>
+              </div-->
+            </div>
+            <div class="grid__col grid__col--1-of-3 grid__col--s-1-of-3 grid__col--m-1-of-3 grid__col--am text__center">
+              <div class="eva-1-img">
+                <!--img alt="" src="IMG_20161027_172408.jpg"-->
+              </div>
+            </div>
+          </div>
+
+
+          <table class="vehicles__specs__table" id="specsTable">
+            <tbody>
+              <tr>
+                <th><h3 class="specs__table__heading"> X-1 </h3></th>
+                
+                <th><h3 class="specs__table__heading"> Size and Weight </h3></th>
+                
+                <th><h3 class="specs__table__heading"> X-1 Plus </h3></th>
+              </tr>
+
+
+              
+              <tr>
+                <td data-spec-m="740 x 550 x 301 mm" data-spec-i="29.1 x 22 x 11.8 in">
+                  740 x 550 x 301 mm
+                </td>
+                <td><h6 class="specs__table__spec"> Dimensions<br>
+                    (L x W x H) </h6></td>
+                <td data-spec-m="1190 x 1810 x 400 mm" data-spec-i="46.8 x 71.2 x 15.7 in">
+                  1190 x 1810 x 400 mm
+                </td>
+              </tr>
+              
+              
+              <tr>
+                <td data-spec-m="100 kg" data-spec-i="220 lbs">
+                  100 kg
+                </td>
+                <td><h6 class="specs__table__spec"> Max Payload </h6></td>
+                <td data-spec-m="1500 kg " data-spec-i="3300 lbs">
+                  1500 kg 
+                </td>
+              </tr>
+              
+              <tr>
+                <td data-spec-m="16 mm" data-spec-i="0.70 in">
+                  16 mm
+                </td>
+                <td><h6 class="specs__table__spec"> Clearance </h6></td>
+                <td data-spec-m="16 mm " data-spec-i="0.70 in">
+                  16 mm 
+                </td>
+              </tr>
+              
+              <tr>
+                <td data-spec-m="Fixed" data-spec-i="Fixed">
+                  Fixed
+                </td>
+                <td><h6 class="specs__table__spec"> Suspension </h6></td>
+                <td data-spec-m="Passive" data-spec-i="Passive">
+                  Passive
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="vehicles__specs__table" id="specsTable">
+            <thead>
+              <tr>
+                
+                <th colspan="3"><h3 class="specs__table__heading"> Speed and Performance </h3></th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr>
+                <td data-spec-m="2.0 m/s" data-spec-i="4.47 mph">
+                  2.0 m/s
+                </td>
+                <td><h6 class="specs__table__spec"> Max Speed </h6></td>
+                <td data-spec-m="2.0 m/s " data-spec-i="4.47 mph">
+                  2.0 m/s 
+                </td>
+              </tr>
+              
+              <tr>
+                <td data-spec-m="4 Hrs" data-spec-i="4 Hrs">
+                  4 Hrs
+                </td>
+                <td><h6 class="specs__table__spec"> Nominal Continuous Runtime </h6></td>
+                <td data-spec-m="6 Hrs" data-spec-i="6 Hrs">
+                  6 Hrs
+                </td>
+              </tr>
+              
+              <tr>
+                <td data-spec-m="5% / 3°" data-spec-i="5% / 3°">
+                  5% / 3°
+                </td>
+                <td><h6 class="specs__table__spec"> Slope </h6></td>
+                <td data-spec-m="5% / 3°" data-spec-i="5% / 3°">
+                  5% / 3°
+                </td>
+              </tr>
+              
+              <tr>
+                <td data-spec-m="0" data-spec-i="0">
+                  0
+                </td>
+                <td><h6 class="specs__table__spec"> Turning Radius </h6></td>
+                <td data-spec-m="0" data-spec-i="0">
+                  0
+                </td>
+              </tr>
+              
+              <tr>
+                <td data-spec-m="+/- 25 mm" data-spec-i="+/- 0.98 in">
+                  +/- 25 mm
+                </td>
+                <td><h6 class="specs__table__spec"> Positional Accuracy </h6></td>
+                <td data-spec-m="+/- 25 mm " data-spec-i="+/- 0.98 in">
+                  +/- 25 mm 
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+      </section>
+
+
+
+      <section class="content__band" id="home_band_video">
+        <h1 class="section__title">Demo Video</h1>
+        <div class="grid grid--no-gutter content__band__container">
+          <video autoplay loop="loop" preload="auto" src="slamAGV.mp4">
+            <source type="video/mp4" src="slamAGV.mp4"/>
+            <object data="slamAGV.mp4" height="100%">
+              <param name="wmode" value="transparent">
+              <param name="autoplay" value="true" >
+              <param name="loop" value="true" >
+            </object>
+		    Your browser does not support the video tag.	
+          </video>
+        </div>
+      </section>
+
+
+      
+	</div><!--container-->
+
+    <div id="footer">
+      <hr>
+      <div class="copyright">
+        Copyright (C) 2016, X-LAB. All rights reserved.
+      </div>
+      <br>
+      
+    </div>
+  </body>
+  <script>
+    //document.getElementsByTagName("body")[0].style.display = "";
+  </script>
+  <!--        <script type="text/javascript" src="plugin/ckeditor/ckeditor.js"></script>  -->
+  <script type="text/javascript" src="script/main.js"></script>
+</html>
